@@ -1,0 +1,416 @@
+task,template
+task050_multirc_answerability_classification,"Sentence: {INPUT} 
+Question: {INPUT}"
+task056_multirc_answer_verification,"Paragraph- Sent 1: {INPUT}
+Sent 2: {INPUT}
+Sent 3: {INPUT}
+Sent 4: {INPUT}
+Sent 5: {INPUT}
+Sent 6: {INPUT}
+Sent 7: {INPUT}
+Question: {INPUT} 
+Correct Answer: {INPUT}"
+task065_timetravel_coherence_classification,"Sentence 1: {INPUT} 
+ Sentence 3: {INPUT} 
+ Sentence 4:  {INPUT} 
+ Sentence 5:  {INPUT} 
+ Option 1: {INPUT} 
+ Option 2: {INPUT}"
+task066_timetravel_coherence_classification,"Sentence 1: {INPUT} 
+ Sentence 3: {INPUT} 
+ Sentence 4:  {INPUT} 
+ Sentence 5:  {INPUT} 
+ Given Sentence 2: {INPUT}"
+task069_abductive_nli_coherence_classification,Beginning: {INPUT} Middle 1: {INPUT} Middle 2: {INPUT} Ending: {INPUT}
+task070_abductive_nli_coherence_classification,Beginning: {INPUT} Middle 1: {INPUT} Middle 2: {INPUT} Ending: {INPUT}
+task073_commonsenseqa_question_answering,"{INPUT}
+(A){INPUT} (B){INPUT} (C){INPUT} (D){INPUT} (E){INPUT}"
+task083_babi_question_answering,Passage: {INPUT} Question: {INPUT}
+task092_synthetic_mathematics,{INPUT}
+task104_semeval_2019_task_10_question_answering,"{INPUT}
+(A){INPUT} (B){INPUT} (C){INPUT} (D{INPUT} (E){INPUT}"
+task106_scruples_ethics_classification,"(A) {INPUT}
+(B) {INPUT}"
+task108_cad_toxic_language_detection,{INPUT}
+task109_sms_spam_collection_v.1_spam_classification,{INPUT}
+task115_help!_need_advice_on_identifying_advice_text_categorization,{INPUT}
+task116_com2sense_commonsense_classification,{INPUT}
+task133_winowhy_coreference_resolution,"Sentence: {INPUT}
+ Reason: The '{INPUT}' refers to {INPUT} because {INPUT} 
+ Question: Is the above reasoning correct or wrong?"
+task156_codah_text_completion,"Prompt: {INPUT} {INPUT} 
+Completion A: {INPUT} 
+Completion B: {INPUT} 
+Completion C: {INPUT} 
+Completion D: {INPUT}"
+task190_snli_textual_entailment,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task195_sentiment140_sentiment_analysis,{INPUT}
+task196_sentiment140_sentiment_analysis,Tweet: {INPUT} Question: is it a {INPUT} tweet?
+task197_multinli_text_categorization,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task198_multinli_text_categorization,"Sentence 1: {INPUT} Sentence 2: {INPUT} Choices: 1. FACE-TO-FACE, 2. GOVERNMENT, 3. LETTERS, 4. 9/11, 5. SLATE, 6. TELEPHONE, 7. TRAVEL, 8. VERBATIM, 9. OUP, 10. FICTION."
+task199_multinli_textual_entailment,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task200_multinli_textual_entailment,Statement: {INPUT} Choices:  1. {INPUT} 2. {INPUT} 3. {INPUT}
+task201_multinli_textual_entailment,Statement: {INPUT} Choices: 1. {INPUT} 2. {INPUT} 3. {INPUT}
+task202_multinli_textual_entailment,Statement: {INPUT} Choices:  1. {INPUT} 2. {INPUT} 3. {INPUT}
+task204_multinli_text_categorization,Sentence 1: {INPUT} Sentence 2: {INPUT} Genre: {INPUT}
+task209_starcon_stance_detection,"Topic: {INPUT}
+ Argument: {INPUT}"
+task211_logic2text_text_to_code,"Command: {INPUT}, interpretation: {INPUT}"
+task212_logic2text_text_to_code,{INPUT}
+task213_rocstories_text_completion,Title: {INPUT} Sentence 1: {INPUT} Sentence 2: {INPUT} Sentence 3: {INPUT} Sentence 4: {INPUT} Choices: a. {INPUT} b. {INPUT}
+task214_rocstories_text_completion,Title: {INPUT} Sentence 1: {INPUT} Sentence 2: {INPUT} Sentence 3: {INPUT} Sentence 4: {INPUT} Choices: a. {INPUT} b. {INPUT}
+task220_rocstories_title_generation,Sentence 1: {INPUT} Sentence 2: {INPUT} Sentence 3: {INPUT} Sentence 4: {INPUT} Sentence 5: {INPUT} Choices: a. {INPUT} b. {INPUT}
+task221_rocstories_text_completion,Title: {INPUT} Choices: a. {INPUT} b. {INPUT} c. {INPUT}
+task224_scruples_ethics_classification,{INPUT}
+task226_curated_from_stack_overflow___english._answerability_classification,"Question: {INPUT} 
+Answer: {INPUT}"
+task227_clariq_question_understanding,"Query: {INPUT} 
+ Clarification: {INPUT}"
+task228_arc_question_answering,"{INPUT} 
+ (A) {INPUT} (B) {INPUT} (C) {INPUT}"
+task229_arc_question_answering,"{INPUT} 
+ (A) {INPUT} (B) {INPUT} (C) {INPUT}"
+task230_iirc_question_answering,"Question: {INPUT} Passage 1:{INPUT}
+ Passage 2:{INPUT}
+ Passage 3:{INPUT}"
+task231_iirc_question_answering,"Question: {INPUT} Passage:{INPUT}
+ Links: a. {INPUT} b. {INPUT} c. {INPUT} d. {INPUT}"
+task232_iirc_answerability_classification,Question: {INPUT} Passage:{INPUT}
+task233_iirc_answerability_classification,Question: {INPUT} Passage:{INPUT}
+task241_tweetqa_answer_verification,Context: {INPUT} Question: {INPUT} Answer: {INPUT}
+task242_tweetqa_answerability_classification,Context: {INPUT} Question: {INPUT} Answer: {INPUT}
+task248_dream_question_understanding,"{INPUT}, Question: {INPUT} (A) {INPUT} (B) {INPUT} (C) {INPUT}"
+task268_casehold_text_completion,"{INPUT}
+ Holding statements: (A) {INPUT} (B) {INPUT} (C) {INPUT} (D) {INPUT} (E) {INPUT}"
+task274_overruling_text_categorization,{INPUT}
+task276_wsc; enhanced_wsc_text_matching,original sentence: {INPUT} paraphrase: {INPUT}
+task279_stereoset_stereotype_detection,Passage: {INPUT}
+task280_stereoset_text_categorization,Passage: {INPUT}
+task284_imdb_sentiment_analysis,{INPUT}
+task285_imdb_sentiment_analysis,Review: {INPUT} Question: is it a {INPUT} review?
+task286_olid_toxic_language_detection,{INPUT}
+task290_tellmewhy_answerability_classification,"{INPUT}
+Why {INPUT}"
+task291_semeval_2020_task4_commonsense_classification,"{INPUT}
+{INPUT}"
+task296_roc_stories_text_completion,"Sentence1: {INPUT} Sentence2: {INPUT} Sentence3: {INPUT} Sentence4: {INPUT} 
+ (A) {INPUT} (B) {INPUT}"
+task297_roc_stories_text_completion,"Sentence1: {INPUT} Sentence2: {INPUT} Sentence3: {INPUT} Sentence4: {INPUT} 
+ (A) {INPUT} (B) {INPUT}"
+task298_roc_stories_coherence_classification,"Sentence1: {INPUT} Sentence2: {INPUT} Sentence3: {INPUT} Sentence4: {INPUT} 
+ Sentence5: {INPUT}"
+task309_race_question_answering,"Article: {INPUT} 
+ Question: {INPUT} 
+ Options: (A) {INPUT} (B) {INPUT} (C) {INPUT} (D) {INPUT}"
+task310_race_question_answering,"Article: {INPUT} 
+ Question: {INPUT} 
+ Options: (A) {INPUT} (B) {INPUT} (C) {INPUT} (D) {INPUT} 
+ Asnwer: {INPUT}"
+task316_crows_pairs_stereotype_detection,Passage: {INPUT}
+task317_crows_pairs_stereotype_detection,Passage: {INPUT}
+task318_stereoset_stereotype_detection,"Target: {INPUT} 
+{INPUT}"
+task319_stereoset_stereotype_detection,"Target: {INPUT} 
+{INPUT}"
+task320_stereoset_stereotype_detection,"Target: {INPUT} 
+{INPUT}"
+task322_jigsaw_toxic_language_detection,Comment: {INPUT}
+task323_jigsaw_toxic_language_detection,Comment: {INPUT}
+task325_jigsaw_toxic_language_detection,Comment: {INPUT}
+task326_jigsaw_toxic_language_detection,Comment: {INPUT}
+task327_jigsaw_toxic_language_detection,Comment: {INPUT}
+task328_jigsaw_toxic_language_detection,Comment: {INPUT}
+task329_gap_coreference_resolution,"{INPUT} <sep>, Pronoun: {INPUT} <sep>, A: {INPUT} <sep>, B: {INPUT}"
+task333_hateeval_toxic_language_detection,Post: {INPUT}
+task335_hateeval_toxic_language_detection,Post: {INPUT}
+task337_hateeval_toxic_language_detection,Post: {INPUT}
+task340_winomt_gender_classification,"Sentence: {INPUT}
+ Profession: {INPUT}"
+task341_winomt_gender_classification,"Sentence: {INPUT}
+ Profession: {INPUT}"
+task346_hybridqa_pos_tagging,"{INPUT} 
+, Word: {INPUT} 
+, POS tag: {INPUT}"
+task349_squad2.0_answerability_classification,Passage: {INPUT} Question: {INPUT}
+task350_winomt_gender_classification,"Sentence: {INPUT}
+ Profession: {INPUT}"
+task351_winomt_gender_classification,"Sentence: {INPUT}
+ Profession: {INPUT}"
+task353_casino_negotiation_strategy_detection,"Context: {INPUT}
+Utterance: {INPUT}"
+task355_casino_negotiation_strategy_detection,"Context: {INPUT}
+Utterance: {INPUT}"
+task356_casino_negotiation_strategy_detection,"Context: {INPUT}
+Utterance: {INPUT}"
+task357_casino_negotiation_strategy_detection,"Context: {INPUT}
+Utterance: {INPUT}"
+task359_casino_negotiation_strategy_detection,"Context: {INPUT}
+Utterance: {INPUT}"
+task361_spolin_dialogue_generation,"Prompt: {INPUT} 
+ Response: {INPUT}"
+task362_spolin_dialogue_act_recognition,"Prompt: {INPUT} 
+ Response 1: {INPUT} 
+ Response 2: {INPUT}"
+task363_sst2_sentiment_analysis,{INPUT}
+task375_ddo_text_categorization,"topic: {INPUT}
+sentence: {INPUT}"
+task379_ag_news_text_categorization,{INPUT}
+task382_hybridqa_pos_tagging,"What is the part-of-speech tag of the word ""{INPUT}"" in the following question: {INPUT}"
+task383_matres_misc.,"{INPUT} 
+ Verb: {INPUT}"
+task384_social_iqa_question_understanding,"Context: {INPUT} 
+ Answer: {INPUT} 
+ Question: {INPUT}"
+task386_semeval_2018_task3_irony_detection,{INPUT}
+task387_semeval_2018_task3_irony_detection,{INPUT}
+task391_cod3s_cause_effect_classification,{INPUT}
+task392_cod3s_cause_effect_classification,{INPUT}
+task397_semeval_2018_task1_sentiment_analysis,{INPUT}
+task398_semeval_2018_task1_sentiment_analysis,{INPUT}
+task399_semeval_2018_task1_sentiment_analysis,{INPUT}
+task400_paws_text_matching,"{INPUT}
+{INPUT}"
+task420_persent_sentiment_analysis,What is the sentiment of the following document towards the entity {INPUT} {INPUT}
+task421_persent_sentiment_analysis,What is the sentiment of the following document towards the entity {INPUT} {INPUT}
+task456_matres_information_extraction,"{INPUT} 
+ Verb: {INPUT}"
+task457_matres_word_semantics,"{INPUT} 
+ Verb: {INPUT}"
+task458_matres_word_semantics,"{INPUT} 
+ Verb: {INPUT}"
+task462_qasper_question_understanding,"{INPUT} 
+ Question: {INPUT}"
+task472_haspart_kb_entity_relation_classification,"Entity 1: {INPUT} 
+ Entity 2: {INPUT}"
+task475_yelp_polarity_sentiment_analysis,{INPUT}
+task476_cls_sentiment_analysis,{INPUT}
+task477_cls_sentiment_analysis,{INPUT}
+task478_cls_sentiment_analysis,{INPUT}
+task493_amazon_polarity_sentiment_analysis,{INPUT}
+task494_amazon_polarity_sentiment_analysis,"Review: {INPUT} 
+ Polarity: {INPUT}"
+task495_semeval_2020_task_7_text_categorization,"News Headline: {INPUT} 
+ Edit: {INPUT}"
+task496_semeval_2020_task_7_text_categorization,"{INPUT} 
+ Edit: {INPUT} 
+ Label: {INPUT}"
+task498_scruples_ethics_classification,{INPUT}
+task502_scruples_ethics_classification,Is {INPUT} wrong in the post ? POST : {INPUT}
+task503_scruples_ethics_classification,{INPUT}
+task508_scruples_ethics_classification,ACTION1: {INPUT} ACTION2: {INPUT}
+task512_emotion_sentiment_analysis,{INPUT}
+task517_emo_sentiment_analysis,{INPUT}
+task520_aquamuse_answerability_classification,Passage: '{INPUT}'. Question: '{INPUT}'.
+task521_qanta_text_categorization,{INPUT}
+task564_discofuse_discourse_relation_classification,Sentence 1:{INPUT} Sentence 2:{INPUT}
+task566_circa_text_matching,Sentence-1: {INPUT}Sentence-2: {INPUT}
+task573_air_dialogue_intent_identification,"customer: {INPUT} 
+ agent: {INPUT} 
+ customer: {INPUT} 
+ agent: {INPUT} 
+ customer: {INPUT} 
+ agent: {INPUT}"
+task575_air_dialogue_speaker_identification,{INPUT}
+task577_curiosity_dialogs_speaker_identification,{INPUT}
+task579_social_iqa_answer_verification,"Context: {INPUT} 
+ Question: {INPUT} 
+ Options: (A) {INPUT} (B) {INPUT} (C) {INPUT} 
+ Answer: {INPUT}"
+task580_social_iqa_question_answering,"Context: {INPUT} 
+ Question: {INPUT} 
+ Options: (A) {INPUT} (B) {INPUT} (C) {INPUT}"
+task585_prepositional_paraprasing_preposition_prediction,"Word1: {INPUT} 
+ Word2: {INPUT}"
+task586_amazon_fine_food_reviews_sentiment_analysis,{INPUT}
+task587_amazon_fine_food_reviews_sentiment_analysis,"{INPUT} 
+ Polarity: {INPUT}"
+task588_amazon_fine_food_reviews_sentiment_analysis,{INPUT}
+task590_amazon_fine_food_reviews_text_matching,"{INPUT} 
+ Summary: {INPUT}"
+task607_sbic_toxic_language_detection,{INPUT}
+task608_sbic_toxic_language_detection,{INPUT}
+task609_sbic_toxic_language_detection,{INPUT}
+task616_cola_text_quality_evaluation,{INPUT}
+task621_ohsumed_information_extraction,"Abstract: {INPUT} 
+Question: {INPUT}"
+task623_ohsumed_keyword_tagging,"Abstract: {INPUT} 
+Question Does the following mesh terms have a suitable mesh term for the abstract? 1){INPUT} 2){INPUT}"
+task629_dbpedia_14_text_categorization,Text:  {INPUT}
+task630_dbpedia_14_text_matching,"Text:  {INPUT} 
+Title: {INPUT}"
+task632_dbpedia_14_text_categorization,Text:  {INPUT}
+task633_dbpedia_14_text_categorization,"Context: {INPUT}
+Question: The document can be classified to which topic? 
+Options: 1){INPUT} 2){INPUT}, 3){INPUT}, 4){INPUT}"
+task638_multi_woz_v22_speaker_identification,Sentence1: {INPUT} Sentence2: {INPUT} Sentence3: {INPUT} Sentence4: {INPUT} Question: Who has spoken the sentence {INPUT} (A) {INPUT} (B) {INPUT}
+task673_google_wellformed_query_question_understanding,{INPUT}
+task679_hope_edi_text_categorization,{INPUT}
+task681_hope_edi_text_categorization,{INPUT}
+task682_opp_115_text_categorization,{INPUT}
+task683_opp_115_information_extraction,{INPUT}
+task738_perspectrum_textual_entailment,"claim: {INPUT}
+ perspective: {INPUT}"
+task744_eurlex_text_categorization,{INPUT}
+task746_yelp_restaurant_review_sentiment_analysis,{INPUT}
+task767_craigslist_bargains_text_categorization,"{INPUT}: {INPUT}
+{INPUT}: {INPUT}
+{INPUT}: {INPUT}"
+task827_copa_cause_effect_classification,"{INPUT}
+(1){INPUT}(2){INPUT}"
+task828_copa_cause_effect_classification,"{INPUT}
+{INPUT}"
+task834_mathmatics_dataset_question_understanding,{INPUT}
+task843_financial_phrasebank_sentiment_analysis,{INPUT}
+task844_financial_phrasebank_sentiment_analysis,"news:{INPUT}
+polarity:{INPUT}"
+task846_pubmed_qa_answer_verification,"Question: {INPUT}
+Answer: {INPUT}"
+task848_pubmed_qa_intent_identification,{INPUT}
+task875_emotion_sentiment_analysis,{INPUT}
+task879_schema_guided_dstc8_dialogue_act_recognition,{INPUT}
+task880_schema_guided_dstc8_dialogue_act_recognition,{INPUT}
+task881_schema_guided_dstc8_text_categorization,{INPUT}
+task888_rotten_tomatoe_sentiment_analysis,{INPUT}
+task889_go_emotions_sentiment_analysis,{INPUT}
+task902_deceptive_opinion_spam_dataset_sentiment_analysis,{INPUT}
+task903_deceptive_opinion_spam_dataset_sentiment_analysis,"Review: {INPUT}
+Polarity: {INPUT}"
+task904_hate_speech_offensive_toxic_language_detection,{INPUT}
+task905_hate_speech_offensive_toxic_language_detection,"Tweet: {INPUT}
+Label: {INPUT}"
+task909_dialogre_speaker_identification,"Speaker {INPUT}: {INPUT} 
+Speaker {INPUT}: {INPUT}"
+task923_event2mind_sentiment_analysis,Event:{INPUT} Intent:
+task925_coached_conv_pref_speaker_identification,"{INPUT}: {INPUT} , {INPUT}: {INPUT} , {INPUT}: {INPUT} , {INPUT}: {INPUT} , {INPUT}: {INPUT} , {INPUT}: {INPUT}, classify_text: {INPUT}"
+task929_generated_reviews_enth_sentiment_analysis,{INPUT}
+task935_defeasible_nli_atomic_textual_entailment,"Premise: PersonX {INPUT}
+Hypothesis: {INPUT}
+Update: {INPUT}"
+task936_defeasible_nli_atomic_textual_entailment,"Premise: {INPUT}
+Hypothesis: {INPUT}
+Update: {INPUT}"
+task937_defeasible_nli_atomic_textual_entailment,"Hypothesis: {INPUT}
+Update: {INPUT}"
+task1135_x_csr_question_answering,"Question: {INPUT} 
+ Options: A {INPUT} B {INPUT} C {INPUT} D {INPUT} E {INPUT} "
+task1162_coda_19_text_matching,"Paragraph: {INPUT} 
+ Title: {INPUT}"
+task1163_coda_19_section_classification,{INPUT}
+task1164_coda_19_section_classification,"Sentence: {INPUT} 
+ Section: {INPUT}"
+task1186_human_ratings_of_natural_language_generation_outputs_text_quality_evaluation,"System Reference: {INPUT}
+Original Reference: {INPUT}"
+task1187_liar_text_categorization,"Statement: {INPUT} 
+ Subject: {INPUT}"
+task1196_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1197_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1198_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1199_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1200_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1201_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1202_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1203_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1204_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1205_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1206_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1207_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1208_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1209_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1210_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1211_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1212_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1213_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1214_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1215_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1216_atomic_commonsense_classification,Head: {INPUT}<sep>Tail: {INPUT}
+task1283_human_ratings_of_natural_language_generation_outputs_text_quality_evaluation,"System Reference: {INPUT}
+Original Reference: {INPUT}"
+task1284_human_ratings_of_natural_language_generation_outputs_text_quality_evaluation,"System Reference: {INPUT}
+Original Reference: {INPUT}"
+task1289_trec_question_understanding,{INPUT}
+task1308_multilingual_amazon_reviews_text_categorization,"Reviews: {INPUT} 
+ Category: {INPUT}"
+task1309_multilingual_amazon_reviews_summarization,"Reviews: {INPUT} 
+ Summary: {INPUT}"
+task1310_multilingual_amazon_reviews_sentiment_analysis,{INPUT}
+task1311_multilingual_amazon_reviews_sentiment_analysis,"Review: {INPUT} 
+ Rating: {INPUT}"
+task1312_multilingual_amazon_reviews_sentiment_analysis,{INPUT}
+task1313_multilingual_amazon_reviews_sentiment_analysis,"Review: {INPUT} 
+ Polarity: {INPUT}"
+task1328_question_&_answer_zre_question_understanding,"Context : {INPUT} 
+Question : {INPUT}"
+task1336_equity_evaluation_corpus_gender_classification,{INPUT}
+task1338_equity_evaluation_corpus_sentiment_analysis,{INPUT}
+task1344_rte_textual_entailment,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task1346_cola_grammar_error_detection,{INPUT}
+task1347_sts_b_text_matching,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task1354_sentence_compression_text_matching,Article: {INPUT} Headline: {INPUT}
+task1361_movie_rationales_sentiment_analysis,{INPUT}
+task1384_deal_or_no_dialog_dialogue_state_tracking,THEM: {INPUT} YOU: {INPUT}
+task1391_winogrande_coreference_resolution,{INPUT} _ {INPUT} (A) {INPUT} (B) {INPUT}
+task1393_copa_cause_effect_classification,"{INPUT} (A) {INPUT} (B) {INPUT}, Question: {INPUT}"
+task1408_dart_text_matching,"[{INPUT}, {INPUT}]"
+task1418_bless_word_relation_classification,"Concept: {INPUT}, Relatum: {INPUT}"
+task1429_evalution_word_relation_classification,"X: {INPUT}, Y: {INPUT}"
+task1431_head_qa_question_answering,"Question: {INPUT} 
+ Options:  <1> {INPUT} <2> {INPUT} <3> {INPUT} <4> {INPUT} <5> {INPUT}"
+task1434_head_qa_text_categorization,"Question: {INPUT} 
+ Options:  <0> {INPUT} <1> {INPUT} <2> {INPUT} <3> {INPUT} <4> {INPUT}"
+task1439_doqa_answerability_classification,CONTEXT: {INPUT} <sep>  Q: {INPUT}
+task1442_doqa_answerability_classification,CONTEXT: {INPUT} <sep>  Q: {INPUT}
+task1488_news_headlines_dataset_for_sarcasm_detection_text_categorization,{INPUT}
+task1495_ade_corpus_v2_text_categorization,{INPUT}
+task1500_dstc3_dialogue_state_tracking,"System: '{INPUT}'
+User: '{INPUT}'"
+task1501_dstc3_dialogue_state_tracking,"System: '{INPUT}'
+User: '{INPUT}'
+Question: 'Did the user {INPUT}'"
+task1502_hatexplain_toxic_language_detection,{INPUT}
+task1503_hatexplain_toxic_language_detection,{INPUT}
+task1505_root09_word_relation_classification,"X: {INPUT}, Y: {INPUT}"
+task1516_imppres_textual_entailment,"Premise : '{INPUT}','Hypothesis : {INPUT}'"
+task1517_limit_information_extraction,{INPUT}
+task1529_scitailv1.1_textual_entailment,"Premise: {INPUT} 
+ Hypothesis: {INPUT}"
+task1531_dailydialog_dialogue_act_recognition,{INPUT}
+task1533_dailydialog_dialogue_act_recognition,"Person1:       {INPUT} 
+ Person2:{INPUT}"
+task1534_dailydialog_dialogue_act_recognition,"Person1:     {INPUT} 
+ Person2:  {INPUT}"
+task1535_dailydialog_sentiment_analysis,"Person1:     {INPUT} 
+Person2: {INPUT}"
+task1536_dailydialog_sentiment_analysis,"Person1:      {INPUT} 
+ Person2:  {INPUT}"
+task1541_ag_news_text_categorization,{INPUT}
+task1548_wiqa_sentence_ordering, [{INPUT} 
+task1554_scitail_textual_entailment,Sentence 1: {INPUT} Sentence 2: {INPUT}
+task1559_blimp_linguistic_probing,{INPUT}
+task1560_blimp_linguistic_probing,{INPUT}
+task1583_bless_word_relation_classification,{INPUT} has {INPUT}
+task1584_evalution_word_relation_classification,{INPUT} has {INPUT}
+task1587_scifact_text_matching,Abstract: {INPUT} Title: {INPUT}
+task1589_scifact_text_quality_evaluation,{INPUT}
+task1592_yahoo_answers_topics_text_categorization,{INPUT}
+task1593_yahoo_answers_topics_text_categorization,{INPUT}
+task1599_smcalflow_speaker_identification,{INPUT}
+task1604_ethos_toxic_language_detection,{INPUT}
+task1612_sick_textual_entailment,sentence_A: {INPUT} sentence_B: {INPUT}
+task1615_sick_textual_entailment,sentence_A: {INPUT} sentence_B: {INPUT}
+task1623_disfl_qa_text_quality_evaluation,{INPUT}
+task1624_disfl_qa_answerability_classification,"proper question: {INPUT} 
+ disfluent question: {INPUT} 
+ context: {INPUT}"
+task1630_open_pi_text_categorization,{INPUT}
+task1640_adversarial_qa_answerability_classification,{INPUT} Question: {INPUT}
+task1645_medical_question_pair_dataset_text_matching,"Sentence1: {INPUT} 
+ Sentence2: {INPUT}"
+task1661_boolq_question_answering,"Passage: {INPUT}
+Question: {INPUT}"
+task1712_poki_text_categorization,{INPUT}
+task1720_civil_comments_toxic_language_detection,{INPUT}
+task1721_civil_comments_toxic_language_detection,{INPUT}
+task1722_civil_comments_toxic_language_detection,{INPUT}
+task1723_civil_comments_toxic_language_detection,{INPUT}
+task1724_civil_comments_toxic_language_detection,{INPUT}
+task1725_civil_comments_toxic_language_detection,{INPUT}

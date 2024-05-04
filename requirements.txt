@@ -1,0 +1,17 @@
+torch
+scipy
+scikit-learn
+packaging
+sentencepiece
+datasets
+accelerate>=0.21.0
+peft>=0.4.0
+bitsandbytes>=0.41.1
+evaluate>=0.4.0
+tokenizers>=0.13.3
+transformers
+protobuf
+jsonlines
+unidic-lite
+einops
+fire
