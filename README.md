@@ -34,5 +34,15 @@ python -m src.superni.run_completions_eval \
 If you used this repository, please cite our work:
 
 ```bibtex
-
+@misc{reif2024performance,
+      title={Beyond Performance: Quantifying and Mitigating Label Bias in LLMs}, 
+      author={Yuval Reif and Roy Schwartz},
+      year={2024},
+      eprint={2405.02743},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
+
+## Acknowledgements
+The code for running evaluation on Super-NaturalInstructions was based on the codebase from the [paper](https://arxiv.org/abs/2306.04751) "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources" (Wang et al., 2024). Their codebase can be found at [https://github.com/allenai/open-instruct](https://github.com/allenai/open-instruct).
